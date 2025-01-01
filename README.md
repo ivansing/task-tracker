@@ -65,50 +65,50 @@ That’s it! No further dependencies are required.
 Run the following commands from inside the project directory:
 
     ```bash
-    # Add a new task
-    python task_cli.py add "Buy groceries"
-    # Output: Task added successfully (ID: 1)
+        # Add a new task
+        python task_cli.py add "Buy groceries"
+        # Output: Task added successfully (ID: 1)
 
-    # List all tasks
-    python task_cli.py list
+        # List all tasks
+        python task_cli.py list
 
-    # List tasks by status
-    python task_cli.py list todo
-    python task_cli.py list in-progress
-    python task_cli.py list done
+        # List tasks by status
+        python task_cli.py list todo
+        python task_cli.py list in-progress
+        python task_cli.py list done
 
-    # Mark a task as in-progress
-    python task_cli.py mark-in-progress 1
+        # Mark a task as in-progress
+        python task_cli.py mark-in-progress 1
 
-    # Mark a task as done
-    python task_cli.py mark-done 1
+        # Mark a task as done
+        python task_cli.py mark-done 1
 
-    # Update a task description
-    python task_cli.py update 1 "Buy groceries and cook dinner"
+        # Update a task description
+        python task_cli.py update 1 "Buy groceries and cook dinner"
 
-    # Delete a task
-    python task_cli.py delete 1
+        # Delete a task
+        python task_cli.py delete 1
 
     ```
 
 If you made the script executable, you can also run:
 
     ```bash
-    ./task_cli.py add "Wash the car"
+        ./task_cli.py add "Wash the car"
     ```
 
 ## Project Structure
 
     ```bash
-    task-tracker-cli/
-    ├── __init__.py          # Makes this a Python package (optional)
-    ├── logger.py            # Handles logging configuration
-    ├── task_cli.py          # Main CLI script (entry point)
-    ├── task_manager.py      # Core logic (loading/saving tasks, add/delete/update)
-    ├── tasks.json           # Local JSON database of tasks
-    └── tests/
-        ├── __init__.py
-        └── test_tasks.py    # Unit tests for task_manager.py
+        task-tracker-cli/
+        ├── __init__.py          # Makes this a Python package (optional)
+        ├── logger.py            # Handles logging configuration
+        ├── task_cli.py          # Main CLI script (entry point)
+        ├── task_manager.py      # Core logic (loading/saving tasks, add/delete/update)
+        ├── tasks.json           # Local JSON database of tasks
+        └── tests/
+            ├── __init__.py
+            └── test_tasks.py    # Unit tests for task_manager.py
 
     ```
 
@@ -122,13 +122,13 @@ If you made the script executable, you can also run:
 **Run all tests via `unittest`:**
 
     ```bash
-    python -m unittest discover
+        python -m unittest discover
 
     ```
 Or specify the exact test file:
 
     ```bash
-    python -m unittest tests/test_tasks.py
+        python -m unittest tests/test_tasks.py
 
     ```
 You'll see a report showing which tests passed or failed.
