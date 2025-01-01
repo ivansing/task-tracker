@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "description": "Buy groceries and cook dinner",
+    "status": "done",
+    "createdAt": "2024-12-31T16:58:51.237478",
+    "updatedAt": "2024-12-31T18:17:21.202074"
+  },
+  {
+    "id": 2,
+    "description": "Buy groceries",
+    "status": "todo",
+    "createdAt": "2024-12-31T19:13:11.910014",
+    "updatedAt": "2024-12-31T19:13:11.910014"
+  },
+  {
+    "id": 3,
+    "description": "Write unit tests",
+    "status": "todo",
+    "createdAt": "2024-12-31T19:14:15.040512",
+    "updatedAt": "2024-12-31T19:14:15.040512"
+  },
+  {
+    "id": 4,
+    "description": "Write unit tests",
+    "status": "todo",
+    "createdAt": "2024-12-31T19:15:29.224518",
+    "updatedAt": "2024-12-31T19:15:29.224518"
+  },
+  {
+    "id": 5,
+    "description": "Write unit tests",
+    "status": "todo",
+    "createdAt": "2024-12-31T19:16:31.794205",
+    "updatedAt": "2024-12-31T19:16:31.794205"
+  },
+  {
+    "id": 6,
+    "description": "Write unit tests",
+    "status": "todo",
+    "createdAt": "2024-12-31T19:22:15.758588",
+    "updatedAt": "2024-12-31T19:22:15.758588"
+  },
+  {
+    "id": 7,
+    "description": "Write unit tests",
+    "status": "todo",
+    "createdAt": "2024-12-31T19:22:52.319340",
+    "updatedAt": "2024-12-31T19:22:52.319340"
+  },
+  {
+    "id": 8,
+    "description": "Finish CLI tool",
+    "status": "todo",
+    "createdAt": "2024-12-31T19:25:37.042136",
+    "updatedAt": "2024-12-31T19:25:37.042136"
+  }
+]
