@@ -88,7 +88,6 @@ Run the following commands from inside the project directory:
 
         # Delete a task
         python task_cli.py delete 1
-
     ```
 
 If you made the script executable, you can also run:
@@ -109,7 +108,6 @@ If you made the script executable, you can also run:
         └── tests/
             ├── __init__.py
             └── test_tasks.py    # Unit tests for task_manager.py
-
     ```
 
 - task_cli.py – Handles command-line argument parsing and delegates to the task manager.
@@ -123,13 +121,11 @@ If you made the script executable, you can also run:
 
     ```bash
         python -m unittest discover
-
     ```
 Or specify the exact test file:
 
     ```bash
         python -m unittest tests/test_tasks.py
-
     ```
 You'll see a report showing which tests passed or failed.
 
