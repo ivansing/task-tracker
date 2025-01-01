@@ -44,7 +44,7 @@ A command-line tool written in Python to manage tasks stored in a JSON file. Thi
 
 1. **Clone or Download** this repository:
    ```bash
-   git clone https://github.com/ivansing/task-tracker-cli.git
+   git clone https://github.com/ivansing/task-tracker.git
    cd task-tracker-cli
     ```
 
